@@ -1,0 +1,20 @@
+{
+  "name": "node-koa-blogapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/router": "^10.1.1",
+    "dayjs": "^1.11.0",
+    "koa": "^2.13.4",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15",
+    "require-directory": "^2.1.1",
+    "sequelize": "^6.17.0"
+  }
+}
